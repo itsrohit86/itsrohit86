@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#f8fafc"/>
+<rect x="0" y="0" width="1200" height="190" fill="#071b36"/>
+<circle cx="74" cy="70" r="38" fill="#e31837"/><circle cx="74" cy="70" r="16" fill="#fff"/>
+<text x="135" y="68" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#fff">DOMINO'S PIZZA</text>
+<text x="48" y="130" font-family="Arial,sans-serif" font-size="54" font-weight="800" fill="#fff">SQL Analytics Project</text>
+<text x="50" y="166" font-family="Arial,sans-serif" font-size="23" fill="#93c5fd">Turning pizza data into business insights</text>
+
+<rect x="35" y="220" rx="14" width="1130" height="235" fill="#fff" stroke="#dbe5ef"/>
+<text x="55" y="252" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#0f3b68">BUSINESS OVERVIEW</text>
+<rect x="55" y="270" rx="10" width="335" height="68" fill="#f8fbff" stroke="#d9e9f7"/><text x="71" y="294" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Total Revenue</text><text x="71" y="322" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#082f55">Revenue KPI</text><rect x="415" y="270" rx="10" width="335" height="68" fill="#f8fbff" stroke="#d9e9f7"/><text x="431" y="294" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Total Orders</text><text x="431" y="322" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#082f55">Order KPI</text><rect x="775" y="270" rx="10" width="335" height="68" fill="#f8fbff" stroke="#d9e9f7"/><text x="791" y="294" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Total Customers</text><text x="791" y="322" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#082f55">Customer KPI</text><rect x="55" y="353" rx="10" width="335" height="68" fill="#f8fbff" stroke="#d9e9f7"/><text x="71" y="377" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Total Pizzas Sold</text><text x="71" y="405" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#082f55">Volume KPI</text><rect x="415" y="353" rx="10" width="335" height="68" fill="#f8fbff" stroke="#d9e9f7"/><text x="431" y="377" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Average Order Value</text><text x="431" y="405" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#082f55">AOV KPI</text><rect x="775" y="353" rx="10" width="335" height="68" fill="#f8fbff" stroke="#d9e9f7"/><text x="791" y="377" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Revenue / Customer</text><text x="791" y="405" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#082f55">CLV KPI</text>
+
+<rect x="35" y="480" rx="14" width="360" height="275" fill="#071b36"/>
+<text x="55" y="515" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#fff">CUSTOMER ANALYTICS</text>
+<circle cx="155" cy="620" r="72" fill="none" stroke="#38bdf8" stroke-width="20" stroke-dasharray="145 307"/>
+<circle cx="155" cy="620" r="72" fill="none" stroke="#34d399" stroke-width="20" stroke-dasharray="85 367" transform="rotate(125 155 620)"/>
+<circle cx="155" cy="620" r="72" fill="none" stroke="#f59e0b" stroke-width="20" stroke-dasharray="55 397" transform="rotate(215 155 620)"/>
+<text x="116" y="617" font-family="Arial,sans-serif" font-size="17" fill="#cbd5e1">RFM</text><text x="102" y="641" font-family="Arial,sans-serif" font-size="13" fill="#94a3b8">SEGMENTS</text>
+<text x="245" y="580" font-family="Arial,sans-serif" font-size="14" fill="#bae6fd">Loyal</text>
+<text x="245" y="613" font-family="Arial,sans-serif" font-size="14" fill="#86efac">Regular</text>
+<text x="245" y="646" font-family="Arial,sans-serif" font-size="14" fill="#fcd34d">Occasional</text>
+<text x="245" y="679" font-family="Arial,sans-serif" font-size="14" fill="#c4b5fd">One-time</text>
+<text x="55" y="730" font-family="Arial,sans-serif" font-size="13" fill="#94a3b8">RFM • Lifetime • Repeat purchase</text>
+
+<rect x="420" y="480" rx="14" width="360" height="275" fill="#0b2545"/>
+<text x="440" y="515" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#fff">SAMPLE SQL</text>
+<rect x="440" y="535" width="320" height="155" rx="8" fill="#06182f"/>
+<text x="455" y="562" font-family="monospace" font-size="13" fill="#60a5fa">SELECT</text>
+<text x="455" y="585" font-family="monospace" font-size="13" fill="#e2e8f0">SUM(quantity * price)</text>
+<text x="455" y="608" font-family="monospace" font-size="13" fill="#e2e8f0">COUNT(DISTINCT order_id)</text>
+<text x="455" y="631" font-family="monospace" font-size="13" fill="#e2e8f0">FROM orders</text>
+<text x="455" y="654" font-family="monospace" font-size="13" fill="#e2e8f0">JOIN order_details</text>
+<text x="455" y="677" font-family="monospace" font-size="13" fill="#e2e8f0">JOIN pizzas;</text>
+<text x="440" y="720" font-family="Arial,sans-serif" font-size="13" fill="#93c5fd">JOINs • CTEs • Window Functions • LAG • NTILE</text>
+
+<rect x="805" y="480" rx="14" width="360" height="275" fill="#fff" stroke="#dbe5ef"/>
+<text x="825" y="515" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#0f3b68">PROJECT ROADMAP</text>
+<circle cx="836" cy="545" r="7" fill="#22c55e"/><text x="855" y="550" font-family="Arial,sans-serif" font-size="14" fill="#334155">Business & Sales</text><circle cx="836" cy="570" r="7" fill="#22c55e"/><text x="855" y="575" font-family="Arial,sans-serif" font-size="14" fill="#334155">Product & Menu</text><circle cx="836" cy="595" r="7" fill="#22c55e"/><text x="855" y="600" font-family="Arial,sans-serif" font-size="14" fill="#334155">Customer Analytics</text><circle cx="836" cy="620" r="7" fill="#22c55e"/><text x="855" y="625" font-family="Arial,sans-serif" font-size="14" fill="#334155">Time-Series</text><circle cx="836" cy="645" r="7" fill="#22c55e"/><text x="855" y="650" font-family="Arial,sans-serif" font-size="14" fill="#334155">Advanced Product</text><circle cx="836" cy="670" r="7" fill="#94a3b8"/><text x="855" y="675" font-family="Arial,sans-serif" font-size="14" fill="#334155">Business Intelligence</text><circle cx="836" cy="695" r="7" fill="#94a3b8"/><text x="855" y="700" font-family="Arial,sans-serif" font-size="14" fill="#334155">Senior Challenges</text>
+<rect x="825" y="723" width="305" height="12" rx="6" fill="#e2e8f0"/><rect x="825" y="723" width="190" height="12" rx="6" fill="#22c55e"/>
+<text x="825" y="710" font-family="Arial,sans-serif" font-size="12" fill="#64748b">25 / 40 questions currently scoped</text>
+</svg>
