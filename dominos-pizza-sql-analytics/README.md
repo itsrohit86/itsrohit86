@@ -2,6 +2,10 @@
 
 > **Portfolio project | SQL Business Analysis | In Progress**
 
+![Domino's SQL Analytics Project Overview](./assets/dominos-sql-project-overview.svg)
+
+*A recruiter-friendly visual overview of the project. KPI values shown in the graphic are presentation placeholders; validated results will be added as the analysis is completed.*
+
 ## 🎯 Project Snapshot
 
 A practical pizza-sales analytics project built around business questions rather than isolated SQL exercises.
@@ -39,6 +43,9 @@ The current SQL file covers **25 scoped questions**, with **24 query implementat
 ```
 dominos-pizza-sql-analytics/
 ├── README.md
+├── assets/
+│   ├── dominos-sql-project-overview.svg
+│   └── sql-analytics-workflow.svg
 ├── sql/
 │   └── dominos_pizza_analysis.sql
 ├── data/
@@ -51,6 +58,10 @@ dominos-pizza-sql-analytics/
     └── PORTFOLIO_REVIEW.md
 ```
 
+## 🔄 SQL Analytics Workflow
+
+![SQL Analytics Workflow](./assets/sql-analytics-workflow.svg)
+
 ## 📌 Current Status
 
 ### ✅ Published Now
@@ -59,6 +70,7 @@ dominos-pizza-sql-analytics/
 - Sanitized sample data
 - Schema reference
 - Portfolio review and improvement roadmap
+- Recruiter-friendly project visuals
 
 ### 🚧 Next Additions
 - Level 6: Business Intelligence
