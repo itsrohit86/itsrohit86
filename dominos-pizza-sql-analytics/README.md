@@ -2,9 +2,13 @@
 
 > **Portfolio project | SQL Business Analysis | In Progress**
 
-![Domino's SQL Analytics Project Overview](./assets/dominos-sql-project-overview.svg)
+![Domino's SQL Analytics Dashboard Showcase](./assets/Domino%E2%80%99s%20SQL%20Analytics%20Dashboard%20Showcase.png)
 
-*A recruiter-friendly visual overview of the project. KPI values shown in the graphic are presentation placeholders; validated results will be added as the analysis is completed.*
+*Dashboard showcase mockup for portfolio presentation. KPI values, rankings, charts, and customer figures in this image are illustrative placeholders and must not be treated as validated analysis results.*
+
+[Open the full-size dashboard showcase](./assets/Domino%E2%80%99s%20SQL%20Analytics%20Dashboard%20Showcase.png)
+
+![Domino's SQL Analytics Project Overview](./assets/dominos-sql-project-overview.svg)
 
 ## 🎯 Project Snapshot
 
