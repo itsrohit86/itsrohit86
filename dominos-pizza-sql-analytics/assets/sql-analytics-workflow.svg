@@ -8,7 +8,7 @@
 <text x="63" y="299" font-family="Arial,sans-serif" font-size="13" fill="#cbd5e1">What decision needs support?</text>
 <path d="M215 285 L233 285" stroke="#60a5fa" stroke-width="3"/><path d="M228 279 L235 285 L228 291" fill="none" stroke="#60a5fa" stroke-width="3"/><rect x="235" y="175" rx="14" width="170" height="220" fill="#0b2b4f" stroke="#214d72"/>
 <circle cx="269" cy="208" r="22" fill="#38bdf8"/><text x="260" y="214" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#071b36">02</text>
-<text x="253" y="265" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">Data & Joins</text>
+<text x="253" y="265" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">Data &amp; Joins</text>
 <text x="253" y="299" font-family="Arial,sans-serif" font-size="13" fill="#cbd5e1">Connect customers, orders and products</text>
 <path d="M405 285 L423 285" stroke="#60a5fa" stroke-width="3"/><path d="M418 279 L425 285 L418 291" fill="none" stroke="#60a5fa" stroke-width="3"/><rect x="425" y="175" rx="14" width="170" height="220" fill="#0b2b4f" stroke="#214d72"/>
 <circle cx="459" cy="208" r="22" fill="#38bdf8"/><text x="450" y="214" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#071b36">03</text>
