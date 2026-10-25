@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-header.svg" alt="Rohit Jaiswal — Aspiring Data Analyst" width="100%" />
+<img src="assets/profile-header.svg" alt="Rohit Jaiswal — Data Analyst" width="100%" />
 
 <br/>
 
@@ -24,7 +24,7 @@ I'm an aspiring **Data Analyst** who enjoys transforming raw data into clear rep
 - 📍 **Based in:** Prayagraj, Uttar Pradesh, India
 - 📚 **Education:** Awadesh Pratap Singh University, Rewa, Madhya Pradesh · 2024
 - 💡 **Interested in:** Data analysis, KPI reporting, dashboards, and workflow automation
-- 🤝 **Open to:** Entry-level Data Analyst opportunities
+- 🤝 **Open to:** Data Analyst opportunities
 
 ## 🧰 My Tech Stack
 
