@@ -46,5 +46,7 @@
     <text x="520" y="262" text-anchor="middle" fill="#ffffff">TABLEAU</text>
     <rect x="592" y="240" width="150" height="34" rx="17" fill="#4285f4"/>
     <text x="667" y="262" text-anchor="middle" fill="#ffffff">LOOKER STUDIO</text>
+    <rect x="754" y="240" width="160" height="34" rx="17" fill="#7c3aed"/>
+    <text x="834" y="262" text-anchor="middle" fill="#ffffff">GENERATIVE AI</text>
   </g>
 </svg>
