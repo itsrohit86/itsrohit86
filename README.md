@@ -35,6 +35,10 @@ I'm an aspiring **Data Analyst** who enjoys transforming raw data into clear rep
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827" alt="Power BI"/>
 
+### Data Visualization
+<img src="https://img.shields.io/badge/Tableau-1F4E79?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
+<img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Looker Studio"/>
+
 ### Data & Workflow Tools
 <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets"/>
 <img src="https://img.shields.io/badge/AppSheet-1A73E8?style=for-the-badge&logo=google&logoColor=white" alt="AppSheet"/>
