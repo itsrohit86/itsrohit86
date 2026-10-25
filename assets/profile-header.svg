@@ -42,5 +42,9 @@
     <text x="262" y="262" text-anchor="middle" fill="#ffffff">SQL</text>
     <rect x="320" y="240" width="128" height="34" rx="17" fill="#f2c811"/>
     <text x="384" y="262" text-anchor="middle" fill="#111827">POWER BI</text>
+    <rect x="460" y="240" width="120" height="34" rx="17" fill="#1f4e79"/>
+    <text x="520" y="262" text-anchor="middle" fill="#ffffff">TABLEAU</text>
+    <rect x="592" y="240" width="150" height="34" rx="17" fill="#4285f4"/>
+    <text x="667" y="262" text-anchor="middle" fill="#ffffff">LOOKER STUDIO</text>
   </g>
 </svg>
