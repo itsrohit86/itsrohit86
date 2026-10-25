@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Rohit Jaiswal — Data Analyst</title>
+  <desc id="desc">A dark navy and blue gradient banner with abstract charts and data points.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#132b50"/>
+      <stop offset="100%" stop-color="#24134a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#9bbcff" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+  <circle cx="1080" cy="46" r="145" fill="#7c3aed" opacity=".12"/>
+  <circle cx="1000" cy="300" r="160" fill="#38bdf8" opacity=".1"/>
+  <g opacity=".8" stroke="url(#accent)" stroke-width="2" fill="none">
+    <path d="M810 220 C850 195 875 210 910 166 S980 146 1015 115 S1080 130 1127 65" stroke-linecap="round"/>
+    <path d="M810 248 H1140" stroke="#94a3b8" stroke-opacity=".3"/>
+    <path d="M830 248 V210 M875 248 V186 M920 248 V202 M965 248 V148 M1010 248 V172 M1055 248 V118 M1100 248 V88" stroke-linecap="round" stroke-width="18" opacity=".75"/>
+    <circle cx="910" cy="166" r="5" fill="#38bdf8"/>
+    <circle cx="1015" cy="115" r="5" fill="#a78bfa"/>
+    <circle cx="1127" cy="65" r="5" fill="#38bdf8"/>
+  </g>
+  <g fill="#dbeafe" opacity=".7">
+    <circle cx="835" cy="64" r="3"/><circle cx="872" cy="86" r="2"/><circle cx="925" cy="45" r="3"/>
+    <circle cx="1148" cy="150" r="3"/><circle cx="1060" cy="280" r="2"/><circle cx="785" cy="275" r="3"/>
+  </g>
+  <rect x="64" y="48" width="7" height="218" rx="3.5" fill="url(#accent)"/>
+  <text x="100" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="21" letter-spacing="5" fill="#93c5fd">DATA • INSIGHTS • IMPACT</text>
+  <text x="96" y="172" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="48" fill="#ffffff">ROHIT JAISWAL</text>
+  <text x="100" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#dbeafe">Aspiring Data Analyst</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">
+    <rect x="100" y="240" width="104" height="34" rx="17" fill="#217346"/>
+    <text x="152" y="262" text-anchor="middle" fill="#ffffff">EXCEL</text>
+    <rect x="216" y="240" width="92" height="34" rx="17" fill="#2563eb"/>
+    <text x="262" y="262" text-anchor="middle" fill="#ffffff">SQL</text>
+    <rect x="320" y="240" width="128" height="34" rx="17" fill="#f2c811"/>
+    <text x="384" y="262" text-anchor="middle" fill="#111827">POWER BI</text>
+  </g>
+</svg>
