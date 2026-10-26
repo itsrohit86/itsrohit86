@@ -456,6 +456,21 @@
       .skill-card p, .approach-card p { font-size: 14px; }
       .tag { font-size: 11px; }
     }
+  
+    .resume-section { position: relative; overflow: hidden; }
+    .resume-section::before { content: ""; position: absolute; width: 420px; height: 420px; right: -140px; top: 10%; border-radius: 50%; background: radial-gradient(circle, rgba(89,92,246,.16), transparent 68%); pointer-events:none; }
+    .resume-card { position:relative; display:grid; grid-template-columns:76px minmax(0,1fr) auto; align-items:center; gap:28px; padding:34px; border:1px solid rgba(112,145,196,.28); border-radius:26px; background:linear-gradient(135deg,rgba(20,31,52,.98),rgba(14,21,38,.96)); box-shadow:0 22px 65px rgba(0,0,0,.22),inset 0 1px rgba(255,255,255,.05); transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease; }
+    .resume-card:hover { transform:translateY(-7px); border-color:rgba(100,140,255,.72); box-shadow:0 30px 80px rgba(30,70,160,.22),0 0 0 1px rgba(120,90,255,.12); }
+    .resume-card-icon { display:grid; place-items:center; width:70px; height:70px; border-radius:20px; color:#fff; font-size:30px; background:linear-gradient(135deg,#246bfe,#8b5cf6); box-shadow:0 12px 28px rgba(71,91,246,.3); }
+    .resume-eyebrow { color:#86a8ff; font-size:11px; font-weight:800; letter-spacing:.14em; }
+    .resume-card h3 { margin:8px 0; font-size:25px; }
+    .resume-card p { max-width:520px; margin:0; color:#aab7ce; font-size:15px; line-height:1.8; }
+    .resume-meta { display:flex; flex-wrap:wrap; gap:9px; margin-top:16px; }
+    .resume-meta span { padding:6px 10px; border:1px solid rgba(132,154,190,.2); border-radius:99px; color:#bdc9de; font-size:11px; }
+    .resume-actions { display:flex; flex-direction:column; gap:10px; min-width:165px; }
+    @media(max-width:760px) { .resume-card { grid-template-columns:58px minmax(0,1fr); gap:18px; padding:24px; } .resume-card-icon { width:54px;height:54px;border-radius:16px;font-size:24px; } .resume-actions { grid-column:1/-1; flex-direction:row; flex-wrap:wrap; } .resume-actions .btn { flex:1; } .resume-card h3 { font-size:22px; } }
+    @media(prefers-reduced-motion:reduce) { .resume-card { transition:none; } .resume-card:hover { transform:none; } }
+
   </style>
 </head>
 <body>
@@ -472,6 +487,7 @@
           <a href="#skills">Toolkit</a>
           <a href="#projects">Projects</a>
           <a href="#approach">Approach</a>
+          <a href="#resume">Resume</a>
           <a class="nav-cta" href="#contact">Let's Connect ↗</a>
         </nav>
       </div>
@@ -605,6 +621,30 @@
           <article class="approach-card reveal"><h3>Prepare</h3><p>Clean, validate, and organize data so it is ready to analyse.</p></article>
           <article class="approach-card reveal"><h3>Analyse</h3><p>Use queries, formulas, comparisons, and visuals to identify meaningful patterns.</p></article>
           <article class="approach-card reveal"><h3>Communicate</h3><p>Summarize findings, explain limitations, and recommend practical next steps.</p></article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-kicker">Resume & profile</div>
+          <h2>Want the details? <span class="gradient-text">Let’s make it easy.</span></h2>
+          <p class="section-desc">Explore my experience, analytics toolkit, education, and project work in one concise document.</p>
+        </div>
+        <div class="resume-card reveal">
+          <div class="resume-card-icon" aria-hidden="true">↗</div>
+          <div class="resume-card-copy">
+            <span class="resume-eyebrow">ROHIT JAISWAL · DATA ANALYST</span>
+            <h3>My Resume</h3>
+            <p>A quick overview of my Excel, SQL, Power BI, reporting, and data visualization projects.</p>
+            <div class="resume-meta"><span>PDF document</span><span>Updated portfolio link</span></div>
+          </div>
+          <div class="resume-actions">
+            <a class="btn btn-primary" href="./resume.pdf" target="_blank" rel="noopener">View Resume ↗</a>
+            <a class="btn btn-secondary" href="./resume.pdf" download="Rohit_Jaiswal_Data_Analyst_Resume.pdf">Download PDF ↓</a>
+          </div>
         </div>
       </div>
     </section>
