@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "index.html"
+      - "resume.pdf"
+      - "assets/**"
       - ".github/workflows/deploy-portfolio.yml"
   workflow_dispatch:
 
