@@ -472,6 +472,46 @@
     @media(max-width:760px) { .resume-card { grid-template-columns:58px minmax(0,1fr); gap:18px; padding:24px; } .resume-card-icon { width:54px;height:54px;border-radius:16px;font-size:24px; } .resume-actions { grid-column:1/-1; flex-direction:row; flex-wrap:wrap; } .resume-actions .btn { flex:1; } .resume-card h3 { font-size:22px; } }
     @media(prefers-reduced-motion:reduce) { .resume-card { transition:none; } .resume-card:hover { transform:none; } }
 
+  
+    /* Larger About-section icons for clearer visual hierarchy */
+    .facts-grid .fact-icon {
+      display: flex !important;
+      align-items: center;
+      justify-content: flex-start;
+      width: 54px;
+      height: 54px;
+      margin-bottom: 18px !important;
+      padding: 0;
+      font-size: 34px !important;
+      line-height: 1;
+      font-weight: 600;
+      color: #3b82f6;
+      text-shadow: 0 0 18px rgba(59,130,246,.28);
+    }
+    .about-grid .about-symbol {
+      width: 68px !important;
+      height: 68px !important;
+      margin-bottom: 22px !important;
+      border-radius: 20px !important;
+      font-size: 28px;
+      box-shadow: 0 8px 22px rgba(37,99,235,.20);
+    }
+    .facts-grid .fact {
+      padding: 25px !important;
+      min-height: 190px;
+    }
+    .facts-grid .fact strong { font-size: 15px !important; }
+    .facts-grid .fact span { font-size: 14px !important; line-height: 1.75 !important; }
+    .about-grid .about-card h3 { font-size: 21px !important; }
+    .about-grid .about-card p { font-size: 15px !important; line-height: 1.8 !important; }
+    @media (max-width: 600px) {
+      .facts-grid .fact-icon { width: 46px; height: 46px; font-size: 30px !important; }
+      .facts-grid .fact { padding: 19px !important; min-height: 175px; }
+      .facts-grid .fact strong { font-size: 14px !important; }
+      .facts-grid .fact span { font-size: 13px !important; }
+      .about-grid .about-symbol { width: 58px !important; height: 58px !important; font-size: 24px; }
+    }
+
   </style>
 </head>
 <body>
