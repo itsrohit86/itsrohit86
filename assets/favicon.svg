@@ -1,17 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <defs>
-    <linearGradient id="g">
-      <stop stop-color="#2563eb"/>
-      <stop offset="1" stop-color="#7c3aed"/>
-    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9f5"/><stop offset=".55" stop-color="#0878ff"/><stop offset="1" stop-color="#642cff"/></linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b56aff"/><stop offset="1" stop-color="#672cff"/></linearGradient>
   </defs>
-  <rect width="64" height="64" rx="16" fill="#0b1220"/>
-  <rect x="3" y="3" width="58" height="58" rx="14" fill="url(#g)"/>
-  <path d="M13 40 L25 30 L34 35 L49 17"
-        fill="none" stroke="white" stroke-width="3"
-        stroke-linecap="round"/>
-  <circle cx="49" cy="17" r="3" fill="#a5f3fc"/>
-  <text x="32" y="54" font-family="Arial,sans-serif"
-        font-size="15" font-weight="bold"
-        text-anchor="middle" fill="white">RJ</text>
+  <rect width="128" height="128" rx="25" fill="#020b2d"/>
+  <path d="M21 35H51C65 35 72 43 72 54S65 72 51 72H21V96L35 87V61H50C57 61 60 58 60 53S57 46 50 46H21Z" fill="url(#blue)"/>
+  <path d="M78 38L91 30V75C91 91 83 101 68 101H58L49 92H67C75 92 78 86 78 76Z" fill="url(#blue)"/>
+  <rect x="94" y="64" width="7" height="18" rx="2" fill="url(#blue)"/>
+  <rect x="104" y="54" width="7" height="28" rx="2" fill="url(#blue)"/>
+  <rect x="114" y="45" width="7" height="37" rx="2" fill="url(#purple)"/>
+  <circle cx="117.5" cy="39" r="4" fill="url(#purple)"/>
 </svg>
